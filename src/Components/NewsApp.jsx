@@ -8,7 +8,7 @@ import  'animate.css';
 const Newsapp = () => {
   const [search , setSearch] = useState("india")
   const [newsData , setNewsData] = useState("");
-  const API_KEY = "862ae310603249819d133e2daf9d4579";
+  const API_KEY = "276359f040c7492c91c04542d3e58864";
 
   const getData = async() => {
   const response = await fetch(` https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`)
